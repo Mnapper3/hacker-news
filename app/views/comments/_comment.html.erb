@@ -1,3 +1,4 @@
+<!--what comment will look like when made, this is a partial to be inserted into a messgaes/show page-->
 <div class="comment">
 	<p class="comment-content"><%= comment.content %></p>
 	<p class="comment-posted-by">By <%= comment.user.email %> <%= time_ago_in_words(comment.created_at) %> ago</p>
